@@ -1,0 +1,240 @@
+query,intent
+What is the weather like today?,weather_query
+Will it rain tomorrow?,weather_query
+How hot is it in New York?,weather_query
+Is it going to snow this week?,weather_query
+What's the temperature in London?,weather_query
+Tell me the forecast for this weekend.,weather_query
+Book a flight to New York next Monday,book_flight
+I need a flight to Chicago on Friday,book_flight
+Can you find me a flight to San Francisco?,book_flight
+Reserve a flight ticket for LA,book_flight
+Cancel my flight booking please,cancel_booking
+Change my flight to next week,book_flight
+Can you help me find a good restaurant?,find_restaurant
+Reserve a table for two at an Italian place,book_restaurant
+Find me a nearby sushi restaurant,find_restaurant
+Book a restaurant for dinner tonight,book_restaurant
+Suggest some good cafes nearby,find_restaurant
+I love using this chatbot!,positive_feedback
+Thanks for your help!,positive_feedback
+This chatbot is very useful,positive_feedback
+"Great service, thanks!",positive_feedback
+You’re very helpful!,positive_feedback
+I'm unhappy with the response I got,negative_feedback
+I'm frustrated with the delays,negative_feedback
+Your service is terrible,negative_feedback
+I don't like the answers,negative_feedback
+This is disappointing,negative_feedback
+Show me the latest news updates,news_query
+What's happening in the world today?,news_query
+Give me today's headlines,news_query
+News about technology please,news_query
+Tell me recent sports news,news_query
+My order hasn't arrived yet,order_status
+Track my shipment,track_shipment
+Where is my package?,track_shipment
+Update me on my delivery,order_status
+Has my order been shipped?,order_status
+How do I reset my password?,account_help
+I want to change my delivery address,update_address
+Help me update my profile info,account_help
+How to recover my account?,account_help
+Can you assist with account settings?,account_help
+Tell me a joke,fun_query
+Make me laugh,fun_query
+Do you know any funny stories?,fun_query
+Say something funny,fun_query
+Can you tell me a riddle?,fun_query
+What's the stock price of Apple?,stock_query
+Show me Tesla's latest stock value,stock_query
+How is Amazon stock doing?,stock_query
+Get me Google stock info,stock_query
+Stock prices for Microsoft,stock_query
+Book a hotel room for tomorrow,book_hotel
+Reserve a hotel in Paris,book_hotel
+Find me a cheap hotel nearby,book_hotel
+Can you book a room in a 5-star hotel?,book_hotel
+Cancel my hotel reservation,cancel_booking
+Play musi,fun_query
+Play some jazz,fun_query
+Start playing songs,fun_query
+Play Bollywood music,fun_query
+What's the weather like in New York today?,weather_query
+Is it going to rain tomorrow?,weather_query
+Tell me the forecast for this weekend.,weather_query
+I want to book a flight to Paris next Friday.,book_flight
+Can you find a cheap flight to Tokyo?,book_flight
+Book a one-way flight to London.,book_flight
+Find me a nice Italian restaurant nearby.,find_restaurant
+What's a good place to eat Chinese food?,find_restaurant
+Show me restaurants with vegetarian options.,find_restaurant
+This chatbot is awesome!,positive_feedback
+I'm so happy with the service!,positive_feedback
+Thank you for the quick help.,positive_feedback
+I'm not satisfied with the answer.,negative_feedback
+This is frustrating!,negative_feedback
+I hate this chatbot.,negative_feedback
+What are the latest headlines?,news_query
+Show me today's news highlights.,news_query
+Any breaking news right now?,news_query
+Book a table at a Mexican restaurant.,book_restaurant
+Find a sushi place with good reviews.,book_restaurant
+Reserve a spot for dinner tonight.,book_restaurant
+My order hasn’t been delivered yet.,order_status
+Check the status of my last order.,order_status
+Where is my package?,order_status
+Cancel my train booking now.,cancel_booking
+I need to cancel my hotel reservation.,cancel_booking
+Abort the flight I booked yesterday.,cancel_booking
+Help me recover my password.,account_help
+I can’t log into my account.,account_help
+Reset my password please.,account_help
+Change my shipping address.,update_address
+"I moved, update my delivery location.",update_address
+Edit the address in my profile.,update_address
+This tool is very helpful.,positive_feedback
+I enjoy chatting with this assistant.,positive_feedback
+You're very useful!,positive_feedback
+Too many delays lately.,negative_feedback
+Why is everything so slow?,negative_feedback
+I'm tired of this service.,negative_feedback
+Tell me a funny joke.,fun_query
+Make me laugh please.,fun_query
+Say something humorous.,fun_query
+Check Apple stock price.,stock_query
+What is Tesla's share value now?,stock_query
+How is Microsoft doing in the market?,stock_query
+Track my parcel from Amazon.,track_shipment
+Where is my delivery?,track_shipment
+Help me trace my courier.,track_shipment
+I need a room in a 3-star hotel.,book_hotel
+Book a hotel in Delhi for tomorrow.,book_hotel
+Reserve a suite in Mumbai.,book_hotel
+What is the weather like today?,weather_query
+What's the temperature in London?,weather_query
+Will it rain tomorrow?,weather_query
+Book a flight to New York,book_flight
+I need a ticket to Paris,book_flight
+Reserve a flight for next Monday,book_flight
+Find a good restaurant nearby,find_restaurant
+Suggest a Chinese restaurant,find_restaurant
+Locate Italian dining near me,find_restaurant
+I love this chatbot!,positive_feedback
+Thanks for your help!,positive_feedback
+This bot is amazing,positive_feedback
+I'm unhappy with the response,negative_feedback
+This isn't helpful,negative_feedback
+Very disappointed,negative_feedback
+Show me the news,news_query
+Latest news headlines,news_query
+News updates please,news_query
+Book a table for two,book_restaurant
+Reserve a seat at a café,book_restaurant
+Make a dinner reservation,book_restaurant
+My order hasn’t arrived,order_status
+Track my order,order_status
+Where is my package?,order_status
+Cancel my booking,cancel_booking
+I want to cancel my reservation,cancel_booking
+Please cancel my ticket,cancel_booking
+How do I reset my password?,account_help
+I forgot my password,account_help
+Help me access my account,account_help
+I want to change my address,update_address
+Edit my shipping address",update_address
+Update my home location",update_address
+Tell me a joke,fun_query
+Make me laugh,fun_query
+Give me something funny,fun_query
+What's Apple stock price?,stock_query
+Check Tesla stock,stock_query
+Stock market update",stock_query
+Track my shipment,track_shipment
+Where’s my delivery?,track_shipment
+Shipment status please,track_shipment
+Book a hotel room,book_hotel
+Find a hotel nearby,book_hotel
+I need a room for tonight,book_hotel
+Play some music,play_music
+Start playing songs,play_music
+Play jazz music,play_music
+"What is the weather like today?",weather_query
+"What's the temperature in London?",weather_query
+"Will it rain tomorrow?",weather_query
+"Is it sunny in Mumbai?",weather_query
+"Book a flight to New York",book_flight
+"I need a ticket to Paris",book_flight
+"Reserve a flight for next Monday",book_flight
+"Schedule a flight to Tokyo",book_flight
+"Find a good restaurant nearby",find_restaurant
+"Suggest a Chinese restaurant",find_restaurant
+"Locate Italian dining near me",find_restaurant
+"Find vegetarian restaurants",find_restaurant
+"I love this chatbot!",positive_feedback
+"Thanks for your help!",positive_feedback
+"This bot is amazing",positive_feedback
+"Awesome assistance!",positive_feedback
+"I'm unhappy with the response",negative_feedback
+"This isn't helpful",negative_feedback
+"Very disappointed",negative_feedback
+"You didn’t help at all",negative_feedback
+"Show me the news",news_query
+"Latest news headlines",news_query
+"News updates please",news_query
+"What's happening around the world?",news_query
+"Book a table for two",book_restaurant
+"Reserve a seat at a café",book_restaurant
+"Make a dinner reservation",book_restaurant
+"Book a restaurant for tonight",book_restaurant
+"My order hasn’t arrived",order_status
+"Track my order",order_status
+"Where is my package?",order_status
+"My delivery is late",order_status
+"Cancel my booking",cancel_booking
+"I want to cancel my reservation",cancel_booking
+"Please cancel my ticket",cancel_booking
+Cancel my order now",cancel_booking
+How do I reset my password?,account_help
+I forgot my password,account_help
+Help me access my account,account_help
+I can't log in,account_help
+I want to change my address,update_address
+Edit my shipping address,update_address
+Update my home location,update_address
+Change my delivery address,update_address
+Tell me a joke,fun_query
+Make me laugh,fun_query
+Give me something funny,fun_query
+Say something silly,fun_query
+What's Apple stock price?,stock_query
+Check Tesla stock,stock_query
+Stock market update,stock_query
+Give me stock info for Amazon,stock_query
+Track my shipment,track_shipment
+Where’s my delivery?,track_shipment
+Shipment status please,track_shipment
+Track my courier,track_shipment
+Book a hotel room,book_hotel
+Find a hotel nearby,book_hotel
+I need a room for tonight,book_hotel
+Reserve a hotel for two nights,book_hotel
+Can you play pop hits?",play_music
+Hi,greeting
+Hello there!,greeting
+Hey!,greeting
+Good morning,greeting
+Bye,goodbye
+See you later,goodbye
+Goodnight,goodbye
+Talk to you soon,goodbye
+I need technical help,support_request
+Help me with billing,support_request
+Contact customer support,support_request
+Report a problem,support_request
+Tell me a fun fact,fun_fact
+Impress me with trivia,fun_fact
+Give me a random fact,fun_fact
+I want to learn something new,fun_fact
+
+
